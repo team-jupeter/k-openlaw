@@ -6,6 +6,25 @@
 
 ---
 
+## 📜 특허출원서 전문
+
+> 본 시스템의 핵심 발명에 대한 특허출원서 전문을 공개합니다.
+
+| 특허출원서 | 링크 |
+|---|---|
+| **AI 비서 기반 분쟁과 소송 예방 및 분산형 자율 분쟁 해결 시스템**<br>*AI Assistant-Based Dispute and Lawsuit Prevention and Distributed Autonomous Dispute Resolution System* | [📄 전문 보기](#) |
+| **AI 간 자율 협업 기반 개인 데이터 볼트 관리 및 삼중 서명 재무제표 시스템**<br>*AI-to-AI Autonomous Collaboration Based Personal Data Vault Management and Triple-Signature Financial Statement System* | [📄 전문 보기](#) |
+
+---
+
+## 🌐 공식 웹사이트
+
+자세한 내용은 공식 웹사이트를 참조하십시오.
+
+> **[http://www.openhash.kr/law](http://www.openhash.kr/law)**
+
+---
+
 ## 핵심 기술
 
 - **[Openhash](https://github.com/team-jupeter/openhash)**: 데이터 무결성 보장 (물리적 통신 계층 기반 확률적 해시 저장)
@@ -396,17 +415,33 @@ cat results/simulation_results.json
 k-openlaw/
 ├── README.md                    # 이 파일
 ├── LICENSE                      # GPL-3.0
-├── requirements.txt             # Python 패키지 목록
-├── .env.example                 # 환경변수 템플릿
-├── scenarios/
-│   └── simulate.py              # 전체 시뮬레이션 스크립트
-├── prompts/
-│   ├── prevention.txt           # 예방 법학 기능(101-P) 프롬프트
-│   ├── plaintiff_agent.txt      # 원고 에이전트(110) 프롬프트
-│   ├── defendant_agent.txt      # 피고 에이전트(120) 프롬프트
-│   ├── mediation.txt            # 중재 모듈(130) 프롬프트
-│   ├── verdict.txt              # 판결 모듈(140) 프롬프트
-│   └── integrity_audit.txt      # 조작 저항성 감사 프롬프트
+├── docs/                        # 기술·특허·시장 문서
+│   ├── technology/              # PDV, OpenHash, Multi-LLM
+│   ├── patents/                 # 특허 관련 문서
+│   └── market_analysis/        # 시장 분석
+├── src/                         # 소스 코드
+│   ├── simulate.py              # 전체 시뮬레이션 스크립트
+│   ├── requirements.txt
+│   ├── .env.example
+│   └── prompts/                 # 시스템 프롬프트 6종
+├── web/                         # 웹 인터페이스
+│   ├── index.html
+│   ├── cases/                   # 사건 사례
+│   ├── evaluations/             # 판결·평가
+│   ├── llm_outputs/             # LLM별 출력 (claude/deepseek/gemini)
+│   ├── components/              # 재사용 HTML 컴포넌트
+│   └── specification/           # 명세서 파트 (part0~part7)
 └── results/
     └── simulation_results.json  # 실측 결과 (참고용)
 ```
+
+---
+
+## 📬 연락처
+
+| 항목 | 내용 |
+|---|---|
+| **작성자** | AI City Inc. |
+| **주소** | 제주특별자치도 제주시 한림읍 |
+| **기술 문의** | [tensor.city@gmail.com](mailto:tensor.city@gmail.com) |
+| **공식 웹사이트** | [http://www.openhash.kr/law](http://www.openhash.kr/law) |
